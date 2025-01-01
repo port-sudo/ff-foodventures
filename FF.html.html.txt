@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F & F Food Ventures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #ff5722;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
+            text-align: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            margin-bottom: 20px;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: left;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 10px;
+        }
+        .card p {
+            margin: 0 10px 10px;
+        }
+        .card a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background: #ff5722;
+            color: white;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>F & F Food Ventures</h1>
+        <p>Your favorite cloud kitchen for burgers, pizza, pasta, sandwiches, mocktails, and more!</p>
+    </header>
+
+
+    <nav>
+        <a href="#offerings">Our Offerings</a>
+        <a href="#brands">Our Brands</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+
+    <div class="hero">
+        <h1>Delicious Food Delivered to Your Doorstep</h1>
+    </div>
+
+
+    <div class="section" id="offerings">
+        <h2>Our Offerings</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Burgers">
+                <h3>Burgers</h3>
+                <p>Handcrafted burgers with fresh ingredients.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Cheesy and delicious, baked to perfection.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Mocktails">
+                <h3>Mocktails</h3>
+                <p>Refreshing drinks to elevate your experience.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" id="brands">
+        <h2>Our Brands</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Al-Baik Cafe">
+                <h3>Al-Baik Cafe</h3>
+                <p>Specializing in premium burgers and quick bites.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Knight Cafe">
+                <h3>Knight Cafe</h3>
+                <p>Cozy cafe for sandwiches and mocktails.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Zykka Biryani">
+                <h3>Zykka Biryani & Grill</h3>
+                <p>Authentic biryanis and sizzling grills.</p>
+                <a href="#">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@fandfventures.com</p>
+        <p>Phone: +91-123-456-7890</p>
+        <a href="https://wa.me/911234567890" style="text-decoration: none; color: #ff5722;">Message Us on WhatsApp</a>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2025 F & F Food Ventures. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
